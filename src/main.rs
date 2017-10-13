@@ -8,4 +8,6 @@ fn main() {
     println!("Sync complete");
     find_nn_async();
     println!("Async complete");
+    find_nn_chunks();
+    println!("Chunked complete",)
 }
